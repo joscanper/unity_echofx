@@ -31,7 +31,6 @@ public class EchoCreationToolWindow : EditorWindow
     {
         GUILayout.Label("Vertices: " + mVertices.Count);
         Material = EditorGUILayout.ObjectField(Material, typeof(Material), false) as Material;
-        Light = EditorGUILayout.ObjectField(Light, typeof(Light), true) as Light;
         Echo = EditorGUILayout.ObjectField(Echo, typeof(EchoData), false) as EchoData;
         if (Echo)
         {

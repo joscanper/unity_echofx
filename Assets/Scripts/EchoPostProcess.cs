@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 
 [Serializable]
-[PostProcess(typeof(EchoPostProcessRenderer), PostProcessEvent.AfterStack, "TheCGMan/ECHO")]
+[PostProcess(typeof(EchoPostProcessRenderer), PostProcessEvent.AfterStack, "TheGPUMan/ECHO")]
 public class EchoPostProcess : PostProcessEffectSettings
 {
     [Tooltip("Displays the Echo Effects in debug view.")]
@@ -32,7 +32,7 @@ public class EchoPostProcessRenderer : PostProcessEffectRenderer<EchoPostProcess
     public override void Init()
     {
         mGlobalEchoTexID = Shader.PropertyToID("_GlobalEchoTex");
-        mEchoShader = Shader.Find("Hidden/TheCGMan/ECHO");
+        mEchoShader = Shader.Find("Hidden/TheGPUMan/ECHO");
         base.Init();
     }
 

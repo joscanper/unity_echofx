@@ -1,4 +1,4 @@
-﻿Shader "Hidden/TheCGMan/ECHO"
+﻿Shader "Hidden/TheGPUMan/ECHO"
 {
 	HLSLINCLUDE
 
