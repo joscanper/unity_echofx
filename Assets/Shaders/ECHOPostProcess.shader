@@ -23,6 +23,7 @@
 		// Some randomization to create the glitchy effect
 		float pulse = nrand(_Time.xy);
 
+		// You probably want to optimize this someday....
 		float sinBand = sin(i.texcoord.y * 80 + _Time.z);
 		float sinBand2 = sin(i.texcoord.y * 380 + _Time.z * 100);
 		float sinBand3 = sin(i.texcoord.y * 800 + _Time.z * 10);

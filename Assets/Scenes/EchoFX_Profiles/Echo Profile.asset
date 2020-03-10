@@ -99,7 +99,7 @@ MonoBehaviour:
     value: 1
   HDRMultiplier:
     overrideState: 1
-    value: 3
+    value: 2.5
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

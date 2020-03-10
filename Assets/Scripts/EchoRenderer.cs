@@ -57,7 +57,7 @@ public class EchoRenderer : MonoBehaviour
         Material.SetPass(0);
         Material.SetVector(sLightDirID, Echo.LightDirection);
 
-        // In a real world implementation this should probably be buffer of interactors
+        // In a real world implementation this should probably be a buffer of interactors
         EchoInteractor interactor = EchoManager.Instance.Interactor;
         if (interactor)
         {
