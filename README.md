@@ -40,3 +40,11 @@ Click "Save" to store all the created points in the EchoData file.
 Use this EchoData file on the EchoRenderer component of the ECHO prefab in order to render the created scene.
 
 If the scene was created correctly, it should show up in the EditorView when the object with an EchoRenderer is selected.
+
+## Assets
+
+Car by Kajaman
+
+Statue of hunter with dogby Lincoln 3D Scans
+
+Statue of Nymph Preparing For The Bathby oliverlaric
