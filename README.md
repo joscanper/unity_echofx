@@ -1,6 +1,8 @@
 # The Division™ Echo FX in Unity3D
 This project shows how to implement The Division™ ECHO recording fx in Unity3D.
 
+Please watch the following video to have a better understanding of how it works : https://youtu.be/s7eNoDAJxMk
+
 > The Division is a trademark of Ubisoft Entertainment in the U.S. and/or other countries
 
 ![EchoFX demo](https://github.com/joscanper/unity_echofx/blob/master/Showcase/Echo.gif)
